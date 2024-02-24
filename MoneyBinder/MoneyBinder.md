@@ -5,7 +5,7 @@ sirstealsalott has crossed the limit this time!He's captured MarioBank! Our inte
 
 ## Solution
 
-we look for sirstealsalott on different socials which lead us to the specific following twitter(X) account 
+We look for sirstealsalott on different socials which lead us to the specific following twitter(X) account 
 
 
 ![ss1](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-21%20233833.png)
@@ -270,7 +270,7 @@ and _Try the tags on the bot you dummy_ when we specifically try the tag #vjedsg
 ![bot1](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20154711.png)
 
 
-when we open the file with notepad (as txt) we get the flag 
+When we open the file with notepad (as txt) we get the flag 
 ![flag](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20154822.png)
 
 
