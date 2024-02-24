@@ -10,18 +10,18 @@ This challenge has a limit of 10 attempts This challenge has a follow up challen
 
 Additionally , a hint was released :
 16th February 2024 is his LadyLove's 111th birthday (if she were still alive)
-![stolenpainting](stolenpainting)//add stolen painting to github
+![stolenpainting](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/stolenpainting%20(1).jpeg)//add stolen painting to github
 
 
 ## Solution
-This is a pure OSINT search challenge.As such, we only have to pick up kewyrods or phrases from the question and search on Google to get the Flag.
+This is a pure OSINT search challenge.As such, we only have to pick up keywords or phrases from the question and search on Google to get the Flag.
 
 
 On reverse image searching the image, we come to find out that it was painted by _Peter Adolf Hall_ and the painting is called _Landscape_
 
 So when we google the abpve keywords we get the following result.
 
-//input screenshot1.jpeg
+https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20230839.png
 
 
 On opening the page on scrolling to the painting title we find the following information 
