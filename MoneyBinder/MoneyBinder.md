@@ -29,7 +29,7 @@ The answer to katiereads' tweet is somehting called _Domain Generated Algorithms
 When we look into `dimentiotheevil` account we find another couple of tweets
 
 
-//tag image 
+
 ![dtetwt](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-21%20235416.png)
 
 The tweets are clearly in Base64 so when we convert them we get the following texts 
@@ -271,8 +271,7 @@ and _Try the tags on the bot you dummy_ when we specifically try the tag #vjedsg
 
 
 when we open the file with notepad (as txt) we get the flag 
-![flag](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20154822.png)//insert notepad 
-
+![flag](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20154822.png)
 
 
 Flag : *BITSCTF{5541C0MMUN1C4710N1N73rrUP73D}*
