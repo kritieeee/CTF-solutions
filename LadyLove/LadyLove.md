@@ -21,7 +21,7 @@ On reverse image searching the image, we come to find out that it was painted by
 
 So when we google the abpve keywords we get the following result.
 
-![screenshot1](]https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20230839.png)
+![screenshot1](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20230839.png)
 
 
 On opening the page on scrolling to the painting title we find the following information 
