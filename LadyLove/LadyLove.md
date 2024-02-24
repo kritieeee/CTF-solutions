@@ -10,7 +10,7 @@ This challenge has a limit of 10 attempts This challenge has a follow up challen
 
 Additionally , a hint was released :
 16th February 2024 is his LadyLove's 111th birthday (if she were still alive)
-![stolenpainting](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/stolenpainting%20(1).jpeg)//add stolen painting to github
+![stolenpainting](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/stolenpainting%20(1).jpeg)
 
 
 ## Solution
@@ -21,7 +21,7 @@ On reverse image searching the image, we come to find out that it was painted by
 
 So when we google the abpve keywords we get the following result.
 
-https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20230839.png
+![screenshot1](]https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20230839.png)
 
 
 On opening the page on scrolling to the painting title we find the following information 
