@@ -7,14 +7,22 @@ sirstealsalott has crossed the limit this time!He's captured MarioBank! Our inte
 
 we look for sirstealsalott on different socials which lead us to the specific following twitter(X) account 
 
-//screenshot of sirsteals a lot account
+
+![ss1](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-21%20233833.png)
+
+When we go to his liked tweets we find the following suspicious tweets:
 
 
-When we go to his liked tweets we find the following suspicious tweets. 
-//link my tweet and dimentiotheevil tweet 
+
+![tw1](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-21%20233850.png)
 
 
-The answer to katiereads' tweet is somehting called _Domain Generated Algorithms_ c you can read about them [here](https://bluecatnetworks.com/blog/among-cyber-attack-techniques-what-is-a-dga/ )
+
+![tw2](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-21%20233906.png)
+
+
+
+The answer to katiereads' tweet is somehting called _Domain Generated Algorithms_  you can read about them [here](https://bluecatnetworks.com/blog/among-cyber-attack-techniques-what-is-a-dga/ )
 
 
 
@@ -22,7 +30,7 @@ When we look into `dimentiotheevil` account we find another couple of tweets
 
 
 //tag image 
-
+![dtetwt](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-21%20235416.png)
 
 The tweets are clearly in Base64 so when we convert them we get the following texts 
 
@@ -236,6 +244,35 @@ On running the following pastebin in an online editor or VS code, we get the fol
 30/4/2024: #joibnatpdmgyt
 31/4/2024: #cpveerquurgsq
 ```
-Now, when we look through this list, we notice that some hashes match the hastags in the previous posts. For example, dimentiotheevil has used the hashtag  #ddtjuiweqfvh and #kofbtrkvvmcigi in his posts. Therefore, it is clear that the heist team is communicating through these hashtags.
-We can now write a python script that autosearches these hashtags. However , these will not yeild a result on twitter directly as they are relatively new and do not have enough posts. Thus we will use a tool that helps us look at Hahtag Analytics.There are many such tools available on the internet for free such as [BrandMentions](https://brandmentions.com/hashtag-tracker/) or [Hashtagify](https://hashtagify.me/hashtag/smm)
+There is also a hint in the comments section that says that the dates are irrelevant 
+![hint](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20135142.png)
 
+
+Now, when we look through this list, we notice that some hashes match the hastags in the previous posts. For example, dimentiotheevil has used the hashtag  _#ddtjuiweqfvh_ and _#kofbtrkvvmcigi_ in his posts. Therefore, it is clear that the heist team is communicating through these hashtags.
+We can now write a python script that autosearches these hashtags. However , these will not yeild a result on twitter directly as they are relatively new and do not have enough posts. Thus we will use a tool that helps us look at Hahtag Analytics.There are many such tools available on the internet for free such as [BrandMentions](https://brandmentions.com/hashtag-tracker/) or [Hashtagify](https://hashtagify.me/hashtag/smm) but the name of the challenge is Money _Binder_ which implied that one must use [TweetBinder](https://www.tweetbinder.com/)
+
+
+
+On searching the hashtags manually(or writing a python script to do so,as the case may be), we find the additional following tweets which when decoded, yield the following tweets.  
+![twt1](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20152625.png)
+![twt2](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20152634.png)
+![twt3](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20152705.png)
+
+`hehe they  are such dummies we are talking on a public network `
+
+`failure is the key to success`
+
+`everything you need is right here http://t.me/antiwariobot`
+
+Using the above hints we go to the telegram bot that is linked (now offline)
+and _Try the tags on the bot you dummy_ when we specifically try the tag #vjedsgrlpxxm on the bot we get the following output
+
+![bot1](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20154711.png)
+
+
+when we open the file with notepad (as txt) we get the flag 
+![flag](https://github.com/kritieeee/CTF-solutions/blob/main/MoneyBinder/images-MoneyBinder/Screenshot%202024-02-24%20154822.png)//insert notepad 
+
+
+
+Flag : *BITSCTF{5541C0MMUN1C4710N1N73rrUP73D}*
