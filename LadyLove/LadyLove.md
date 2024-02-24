@@ -12,7 +12,7 @@ Additionally , a hint was released :
 16th February 2024 is his LadyLove's 111th birthday (if she were still alive)
 ![stolenpainting](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/stolenpainting%20(1).jpeg)
 
-
+![]()
 ## Solution
 This is a pure OSINT search challenge.As such, we only have to pick up keywords or phrases from the question and search on Google to get the Flag.
 
@@ -27,24 +27,24 @@ So when we google the abpve keywords we get the following result.
 On opening the page on scrolling to the painting title we find the following information 
 
 
+![Screenshot2](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20230956.png)
 
-//input screenshot2.jpeg
 This confirms that the painting was painted in 
 _Spa,Belgium_.The second part of the question asks us to find a lady who was crowned in Spa.Therefore we googled the keywords _Lady crowned in Spa,Belgium_ which leads to the following result.
 
 
-//screenshot 3 
-
+![Screenshot3](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20231417.png)
+![Screenshot4](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20231923.png)
 
 
 Using the hint that was released, we can confirm that the LadyLove in question is really Keriman Halis Ece. Scrolling further down the Wikipedia page or another simple google search leads to the following result 
 
 
-//screenshot 4
+![Screenshot5](https://github.com/kritieeee/CTF-solutions/blob/main/LadyLove/images-LadyLove/Screenshot%202024-02-21%20232051.png)
 
 
 
-Hence, the final flag is BITSCTF{queen}
+Hence, the final flag is *BITSCTF{queen}*
 
 
 
